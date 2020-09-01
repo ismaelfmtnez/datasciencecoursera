@@ -1,3 +1,5 @@
+File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work).
+
 subject                    1..30
     Subject number
                            1..30 Unique identifier assigned to each subject
