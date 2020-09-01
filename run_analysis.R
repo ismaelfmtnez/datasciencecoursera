@@ -34,7 +34,7 @@ train <- train[,c(colselectmean,colselectstd)]
 rm(a,b,x,c,colselectstd,colselectmean)
 
 ##---------------------------------------------------
-## Add activitylabel column to both the datasets
+## Add activity label column to both the datasets
 ##---------------------------------------------------
 testact <- read.table("./test/y_test.txt")
 trainact <- read.table("./train/y_train.txt")
