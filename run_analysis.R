@@ -1,3 +1,17 @@
+#-----------------------------------------
+# Downloading and unzipping dataset
+#-----------------------------------------
+
+if(!file.exists("./data")){dir.create("./data")}
+#Here are the data for the project:
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl,destfile="./data/Dataset.zip")
+
+# Unzip dataSet to /data directory
+unzip(zipfile="./data/Dataset.zip",exdir="./data")
+
+#You should create one R script called run_analysis.R that does the following.
+
 ##---------------------------------------------------
 ## Load both datasets and label them with feature names
 ##---------------------------------------------------
